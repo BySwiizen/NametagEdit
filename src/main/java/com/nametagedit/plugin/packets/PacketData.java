@@ -23,7 +23,7 @@ enum PacketData {
     v1_18("j", "b", "c", "i", "h", "g", "a", "f", "e", "d", "k"),
     v1_19("j", "b", "c", "i", "h", "g", "a", "f", "e", "d", "k"),
     v1_20("j", "b", "c", "i", "h", "g", "a", "f", "e", "d", "k"),
-    v_20_5_6("k", "b", "c", "j", "i", "g", "a", "f", "e", "d", "l");
+    v1_20_5_6("k", "b", "c", "j", "i", "g", "a", "f", "e", "d", "l");
 
     private final String members;
     private final String prefix;
@@ -37,5 +37,4 @@ enum PacketData {
     private final String visibility;
     // 1.17+
     private final String params;
-
 }
