@@ -69,7 +69,7 @@ public class VersionChecker {
             bukkitVersion = BukkitVersion.v1_20_R3;
         else if (version.contains("(MC: 1.20.5)") || version.contains("(MC: 1.20.6)"))
             bukkitVersion = BukkitVersion.v1_20_5;
-        else if (version.contains("(MC: 1.21)"))
+        else if (version.contains("(MC: 1.21)") || version.contains("(MC: 1.21.1)"))
             bukkitVersion = BukkitVersion.v1_21;
         else
             bukkitVersion = null;
